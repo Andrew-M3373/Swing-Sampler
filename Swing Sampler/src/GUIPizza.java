@@ -45,8 +45,8 @@ public class GUIPizza
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		makeMenus();
 		makeContent();
-        frame.setLocationRelativeTo(null); //Sets JPanel to center of screen 
 		frame.pack();
+        frame.setLocationRelativeTo(null); //Sets JPanel to center of screen 
 		frame.setVisible(true);
 		}
 
